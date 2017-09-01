@@ -6,6 +6,7 @@ We want to easily run spark locally. No matter which OS (Mac, Windows, Linux, BS
 1. Install docker platform in your OS. Visit [this page](https://docs.docker.com/engine/installation/) for detailed installation instructions for your OS. Enterprise Edition is not required.
 
 2. Setup docker.
+
     Enter your command line, make the directory of this repo as your working directory. Then
     
     ```docker build -t learnspark .```
@@ -36,7 +37,7 @@ We want to easily run spark locally. No matter which OS (Mac, Windows, Linux, BS
 
     ```sc.parallelize(1 to 1000).count()```
 
-    You should expect the shell return something like below:
+    Expect the shell returning something like below:
 
     ``` res0: Long = 1000 ```
 
