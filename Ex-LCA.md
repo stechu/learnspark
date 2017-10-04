@@ -5,7 +5,7 @@ Algorithm: Least Common Ancestor (LCA)
 
 The goal of this problem is to compute the least common ancestor (LCA) of two academic papers.
 
-- *Ancestor*: An ancestor a of a paper `p` is any paper that is transitively cited by `p`. 
+- *Ancestor*: An ancestor `a` of a paper `p` is any paper that is transitively cited by `p`. 
 So if p is the Scatter paper by Glendenning, et al., then the CFS paper by Dabek, 
 et al. is an ancestor: Scatter cites BigTable, which cites Chord, which cites CFS.
 
